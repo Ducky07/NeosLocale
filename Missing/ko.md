@@ -2,9 +2,8 @@
 Note that this file updates only during Neos build process and doesn't necessarily reflect the current state.
 
 # Korean [ko]
-Importer.Folder.Minecraft  
-Importer.Folder.Minecraft.Description  
-Importer.Model.Advanced.ForcePointFiltering  
-Importer.Model.Advanced.ForceNoMipMaps  
-Importer.Model.Advanced.ForceUncompressed  
+Dash.Actions.TurnOffUIEdit  
+Inspector.SimpleAvatarProtection.RemoveAll  
+Inspector.SimpleAvatarProtection.ConfirmRemoveAll  
+Tutorial.Streaming.StreamCamera.Modes.Page5.Description  
 
