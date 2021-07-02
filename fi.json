@@ -552,6 +552,7 @@
 
 
         "CreateNew.Collider" : "Törmäytin",
+
         "CreateNew.Collider.Box" : "Laatikko",
         "CreateNew.Collider.Sphere" : "Pallo",
         "CreateNew.Collider.Capsule" : "Kapseli",
