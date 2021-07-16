@@ -39,7 +39,7 @@
         "Locomotion.Fly.Description" : "Fyysinen lentotila",
         "Locomotion.WalkRun.Name" : "Kävely/Juoksu",
         "Locomotion.WalkRun.Description" : "Kävely, juoksu ja hyppiminen.",
-        "Locomotion.WalkRunGripping.Name" : "Kävely/Juoksu (Kiipeilyllä)",
+        "Locomotion.WalkRunGripping.Name" : "Kävely/Juoksu (kiipeilyllä)",
         "Locomotion.WalkRunGripping.Description" : "Kävely, juoksu, hyppiminen ja kiipeily.",
         "Locomotion.ZeroG.Name" : "Painottomuus",
         "Locomotion.ZeroG.Description" : "Painovoimaton tila",
@@ -598,6 +598,7 @@
         "Importer.Image.Prompt" : "Mitä tuot?",
         "Importer.Image.Regular" : "Kuva / Tekstuuri",
 
+        "Importer.Image.Screenshot" : "Neos kuva <size=50%>(otettu täällä)</size>",
         "Importer.Image.360" : "360 kuva / Skybox",
         "Importer.Image.StereoPhoto" : "Stereokuva",
         "Importer.Image.Stereo360" : "360 stereokuva",
@@ -696,6 +697,7 @@
         "Credits.KFC.Title" : "Kompletely Fake Credits (<b>KFC</b>)",
         "Credits.KFC.Description" : "Neoksen testikolikko jolla ei todellista arvoa",
 
+        "Credits.AmountPrompt" : "{action,select, send {Paljonko haluat lähettää?} withdraw {Paljonko haluat nostaa?} tip {Paljonko haluat tipata?}}",
         "Credits.Amount" : "Määrä: ",
         "Credits.Balance" : "Saldo: ",
         "Credits.WithdrawalAddress" : "Nosto-osoite: ",
@@ -712,6 +714,7 @@
         "Credits.Success" : "Onnistui!\nVoit nyt sulkea ikkunan.",
         "Credits.BlockchainWarning" : "Huomaa, että siirto blockchainiin voi kestää jopa 48 tuntia.",
 
+        "Credits.TipConfirmation" : "Olet lähettämässä tipin henkilölle <b><color=#0ff>{username}</color></b>. Haluatko jatkaa?",
 
         "NewWorld.Title" : "Uusi Maailma",
         "NewWorld.Template" : "Mallimaailmat:",
@@ -897,6 +900,7 @@
         "Settings.LegacyGripEquip" : "Ota vanha Double Grip käyttöön",
         "Settings.LegacyWorldSwitcher" : "Käytä vanhaa maailman vaihtajaa",
         "Settings.FetchIncompatibleSessions" : "Näytä yhteensopimattomat istunnot",
+        "Settings.DoNotSendReadStatus" : "Älä lähetä tietoa luetusta viestistä reaaliajassa",
         "Settings.MaxConcurrentAssetTransfers" : "Maksimimäärä samanaikaisia tiedostosiirtoja",
         "Settings.AutosaveScreenshotPath" : "Kuvankaappauksen automaattinen polku",
 
@@ -912,7 +916,7 @@
         "Settings.LaserSmoothing.Reset" : "Nollaa laaserin asetukset",
 
 
-
+        "Settings.Audio.Master" : "Pää-äänenvoimakkuus: {n,number,percent}",
         "Settings.Audio.SoundEffects" : "Ääniefektit: {n,number,percent}",
 
         "Settings.Audio.Voice" : "Puhe: {n,number,percent}",
@@ -1304,7 +1308,7 @@
 
         "Tutorial.Tooltip.GeneralPrimary" : "Päätoiminto",
         "Tutorial.Tooltip.GeneralSecondary" : "Toissijainen toiminto",
-        "Tutorial.Tooltip.ContextMenu" : "Työkaluvalikko ja dequip option",
+        "Tutorial.Tooltip.ContextMenu" : "Työkaluvalikko ja kädestä irroitus",
         "Tutorial.Tooltip.DevPrimary" : "Liikuta valintaa (pidä liipaisinta)",
         "Tutorial.Tooltip.DevSecondary" : "Valitse (näyttää valinnan)",
         "Tutorial.Tooltip.Duplicator" : "Kopioi (samalla kun pidät kiinni)",
@@ -1361,8 +1365,8 @@
         "Tutorial.AvatarTutorial.EquippingAndFavoriting.Description" : "Pue avatari painamalla liipaisinta <br> ja valitsemalla 'Vaihda avatar'.<br><br>Tallenna nykyinen puettu avatarisi painamalla <sprite name=Download>  .<br><br>Voit myös lisätä avatarin suosikiksi <br>inventaariossa valitsemalla  <sprite name=Favorite>  .",
         "Tutorial.AvatarTutorial.AvatarCreation.Description" : "Tuodaksesi mukautetun avatarin Neokseen, tutustu <br> Neoksen avatarin luomis oppaaseen.",
 
-
-
+        "Tutorial.Intro.PublicFolders.Title" : "Julkiset kansiot",
+        "Tutorial.Intro.PublicFolders.Description" : "Julkiset kansiot ovat helppo tapa yhteisön käyttäjille jakaa ja päivittää luomuksiaan, kuten avatareja.<br><br>Tallentaaksesi kansion, ota siitä kiinni ja paina <sprite name=Add> inventaariossasi.<br><br>Voit myös tallentaa säde -valikolla.<br><br>Kokeile sitä kansiolla <b>The Starter Pack</b>. Tämä on uusille käyttäjille tarkoitettu kansio.",
 
         "Tutorial.AvatarCreator.Intro.Title" : "Neos avatarin tekeminen",
         "Tutorial.AvatarCreator.Intro.Description" : "Opi tuomaan avatarisi Neokseen",
@@ -1583,7 +1587,7 @@
 
 
 
-
+        "Exiting.SavingItems" : "Tallennetaan {n, plural, one {# kohde} other {# kohdetta}}...",
         "Exiting.SavingChanges" : "Tallennetaan muutoksia...",
         "Exiting.Exiting" : "Suljetaan...",
         "Exiting.LoggingOut" : "Kirjaudutaan ulos...",
