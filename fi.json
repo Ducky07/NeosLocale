@@ -1,7 +1,7 @@
 {
     "localeCode" : "fi",
     "authors" : ["AdmiralSoap", "Napo", "Hexdigest", "Toni Kat"],
-    "messages" : 
+    "messages" :
     {
         "General.OK" : "OK",
         "General.Start" : "Aloita",
@@ -214,7 +214,7 @@
         "World.Detail.ModifyDate" : "Viimeksi päivitetty",
         "World.Detail.Visits" : "Vierailut",
 
-        "World.Detail.Tags" : "Tunnisteet",
+        "World.Detail.Tags" : "Tägit",
         "World.Detail.ActionsHeader" : "Toiminnot:",
 
         "World.Category.Everything" : "Kaikki",
@@ -346,7 +346,7 @@
         "Account.ErrorPasswordMismatch" : "Salasanat eivät täsmää!",
         "Account.ErrorEmailMismatch" : "Sähköpostit eivät täsmää!",
         "Account.ErrorLoginError" : "Kirjautumisvirhe:",
-        "Account.RegistrationSuccess" : "Onnistui! Vahvistuslinkki on lähetetty sähköpostiisi. Kun avaat tämän linkin, voit kirjautua sisään.",
+        "Account.RegistrationSuccess" : "Onnistui! Vahvistuslinkki on lähetetty sähköpostiin: {email} Kun avaat tämän linkin, voit kirjautua sisään.",
 
         "Profile.Status.Online" : "Online",
         "Profile.Status.Away" : "Poissa",
@@ -597,7 +597,6 @@
         "Importer.Image.Title" : "Kuva",
         "Importer.Image.Prompt" : "Mitä tuot?",
         "Importer.Image.Regular" : "Kuva / Tekstuuri",
-
         "Importer.Image.Screenshot" : "Neos kuva <size=50%>(otettu täällä)</size>",
         "Importer.Image.360" : "360 kuva / Skybox",
         "Importer.Image.StereoPhoto" : "Stereokuva",
@@ -696,11 +695,10 @@
         "Credits.NCR.Description" : "Ethereum kolikko jolla todellista arvoa",
         "Credits.KFC.Title" : "Kompletely Fake Credits (<b>KFC</b>)",
         "Credits.KFC.Description" : "Neoksen testikolikko jolla ei todellista arvoa",
-
         "Credits.AmountPrompt" : "{action,select, send {Paljonko haluat lähettää?} withdraw {Paljonko haluat nostaa?} tip {Paljonko haluat tipata?}}",
         "Credits.Amount" : "Määrä: ",
         "Credits.Balance" : "Saldo: ",
-        "Credits.WithdrawalAddress" : "Nosto-osoite: ",
+        "Credits.WithdrawalAddress" : "Nosto-osoite:\n<color=red>Varmista, että lompakkosi tukee ERC-20 tokeneita!</color>",
         "Credits.AnonymousTip" : "Anonyymi tippi: ",
         "Credits.TipMessage" : "Tipin viesti: ",
         "Credits.TransactionComment" : "Tapahtuman kommentti: ",
@@ -708,12 +706,11 @@
         "Credits.Recipient" : "Vastaanottaja:",
         "Credits.Conversion" : "Muuntaminen:",
         "Credits.Comment" : "Kommentti:",
-        "Credits.SendWarning" : "Olet lähettämässä oikeaa rahaa, varmista että tiedot ovat oikein.",
+        "Credits.SendWarning" : "Olet lähettämässä oikeaa rahaa. Varmista, että tiedot ovat oikein.",
         "Credits.Send" : "Lähetä",
         "Credits.Sending" : "Lähettää...",
         "Credits.Success" : "Onnistui!\nVoit nyt sulkea ikkunan.",
         "Credits.BlockchainWarning" : "Huomaa, että siirto blockchainiin voi kestää jopa 48 tuntia.",
-
         "Credits.TipConfirmation" : "Olet lähettämässä tipin henkilölle <b><color=#0ff>{username}</color></b>. Haluatko jatkaa?",
 
         "NewWorld.Title" : "Uusi Maailma",
@@ -754,20 +751,20 @@
         "FullBody.FinishPrompt" : "Valmis?",
         "FullBody.FinishCalibration" : "Full-Body kalibrointi valmis",
 
+        "FullBody.CalibrateAvatarTitle" : "Kalibroi avatar",
 
 
 
+        "FullBody.ResetAvatar" : "Nollaa kartoitus",
 
+        "FullBody.AvatarHeightCompensation" : "Avatarin pituuden kompensointi: {n, number, percent}",
+        "FullBody.ResetAvatarHeightCompensation" : "Nollaa pituuden kompensointi",
+        "FullBody.AvatarSaveWarning" : "Muista tallentaa avatar kalibroinnin jälkeen!",
+        "FullBody.FinishAvatarCalibration" : "Avatar kalibrointi valmis",
+        "FullBody.CalibrationFinishedInstructions" : "Jos kaikki näyttää hyvältä, voit sulkea kalibroinnin ja tallentaa avatarin.",
+        "FullBody.CloseCalibrator" : "Sulje kalibrointi",
 
-
-
-
-
-
-
-
-
-
+        "FullBody.ReturnToTrackerCalibration" : "Palaa trackerien kalibrointiin",
 
         "FullBody.Hips" : "Vyötärö",
         "FullBody.Feet" : "Jalat",
@@ -775,17 +772,17 @@
         "FullBody.Elbows" : "Kyynärpäät",
         "FullBody.Knees" : "Polvet",
 
+        "FullBody.TrackerMapped" : "Tracker kartoitettu",
+        "FullBody.NotTracking" : "Ei seurantaa...",
+        "FullBody.NoTracker" : "Trackeria ei kartoitettu",
+        "FullBody.FeetNotTracking" : "Jaloilla ei seurantaa...",
 
-
-
-
-
-
-
-
+        "FullBody.AvatarPointMapped" : "Kartoitettu",
+        "FullBody.AvatarPointNotMapped" : "Ei kartoitettu",
+        "FullBody.AvatarPointNoTracker" : "Ei trackeria",
 
         "CameraControl.Title" : "Kameran hallinta",
-        "CameraControl.MirroringOffWarning" : "PEILAUS POIS PÄÄLTÄ",
+        "CameraControl.MirroringOffWarning" : "PEILAUS ON POIS PÄÄLTÄ",
         "CameraControl.MirrorToDisplay" : "Peilaa näytölle",
         "CameraControl.TakePhoto" : "Kuva",
         "CameraControl.Take360Photo" : "360 kuva",
@@ -838,7 +835,7 @@
         "CameraControl.Control.AngleSmoothSpeed" : "Käännön tasoitusnopeus: {n}",
         "CameraControl.Control.FramingSmoothSpeed" : "Kehystyksen tasoitusnopeus: {n}",
 
-
+        "CameraControl.OBS.IP" : "OBS Websocketin IP:",
         "CameraControl.OBS.Password" : "OBS salasana (valinnainen):",
         "CameraControl.OBS.Connect" : "Yhdistä",
         "CameraControl.OBS.Instructions" : "Varmista, että OBS on käynnissä ja obs-websocket on asennettu",
@@ -1039,15 +1036,15 @@
         "Inspector.SimpleAvatarProtection.RemoveAll" : "Poista KAIKKI avatar-suojaukset",
         "Inspector.SimpleAvatarProtection.ConfirmRemoveAll" : "Poista avatar-suojaus",
 
-
-
-
-
-
-
-
-
-
+        "Inspector.BipedRig.GetDiagnosticInfo" : "Hae rigin diagnostiikka info",
+        "Inspector.BipedRig.GenerateDebugVisuals" : "Generoi debug visuaalit",
+        "Inspector.BipedRig.ClearDebugVisuals" : "Piilota debug visuaalit",
+        "Inspector.BipedRig.DetectHands" : "Etsi käsi rigit",
+        "Inspector.BipedRig.DetectLeftHand" : "Etsi vasemman käden rigi",
+        "Inspector.BipedRig.DetectRightHand" : "Etsi oikean käden rigi",
+        "Inspector.BipedRig.HandRigResult" : "Valmis! Vasen: {left}, Oikea: {right}",
+        "Inspector.BipedRig.LeftHandRigResult" : "Valmis! Löydetty vasen: {detected}",
+        "Inspector.BipedRig.RightHandRigResult" : "Valmis! Löydetty oikea: {detected}",
 
         "Inspector.Texture.Size" : "Koko: {width} x {height}",
         "Inspector.Texture.Format" : "Formaatti: {format}, Muisti: <nobr>{memory}</nobr>",
@@ -1096,8 +1093,26 @@
         "Inspector.Material.VariantInfo" : "Variantti-ID: {variantID} (Raaka variantti-ID: {rawVariantID})",
         "Inspector.Material.WaitingForApply" : "Odottaa asetusta: {waiting}",
 
+        "Inspector.Audio.BakeAudio" : "Beikkaa audioklippi",
+        "Inspector.Audio.FormatInfo" : "Näytteenottotaajuus: {rate} Hz, Kanavat: {channels} ({channel_count})",
+        "Inspector.Audio.Duration" : "Kesto: {duration}, Näytemäärä: {samples}",
+        "Inspector.Audio.EncodingInfo" : "Koodekkitiedot: {info}, Täysin dekoodattu: {decoded}",
 
+        "Inspector.Audio.Normalize" : "Normalisoi äänenvoimakkuus",
+        "Inspector.Audio.AmplitudeThreshold" : "Amplitudin kynnys:",
+        "Inspector.Audio.TrimSilence" : "Trimmaa hiljaisuus",
+        "Inspector.Audio.TrimStartSilence" : "Trimmaa hiljaisuus alusta",
+        "Inspector.Audio.TrimEndSilence" : "Trimmaa hiljaisuus lopusta",
+        "Inspector.Audio.PositionDuration" : "Sijainti/kesto (sekunteina):",
+        "Inspector.Audio.TrimStart" : "Trimmaa alusta",
+        "Inspector.Audio.TrimEnd" : "Trimmaa lopusta",
+        "Inspector.Audio.FadeIn" : "Lisää sisäänfeidaus",
+        "Inspector.Audio.FadeOut" : "Lisää ulosfeidaus",
 
+        "Inspector.Audio.ToWAV" : "Muunna WAV formaattiin",
+        "Inspector.Audio.ToVorbis" : "Muunna OGG Vorbis formaattiin",
+        "Inspector.Audio.ToFLAC" : "Muunna FLAC formaattiin",
+        "Inspector.Audio.DenoiseRNNoise" : "Melunvaimennus (RNNoise, optimoitu puheeseen 48kHz taajuudella)",
 
 
 
@@ -1115,83 +1130,65 @@
 
 
 
+        "Inspector.Rig.GenerateDebugVisuals" : "Generoi debug visuaalit",
+        "Inspector.Rig.ClearDebugVisuals" : "Piilota debug visuaalit",
 
 
 
+        "Wizard.General.ProcessRoot" : "Prosessointipolku:",
+        "Wizard.General.Result" : "Tulos:",
+        "Wizard.General.ErrorNoRoot" : "Polkua ei määritetty",
+        "Wizard.General.RemovedResult" : "Poistettu {n}",
 
+        "Wizard.AssetOptimization.Title" : "Resurssien optimointi",
+        "Wizard.AssetOptimization.CleanupUnusedAssets" : "Siivoa käyttämättömät resurssit",
+        "Wizard.AssetOptimization.CleanupEmptySlots" : "Siivoa tyhjät slotit",
 
 
 
+        "Wizard.AssetOptimization.MaxTextureResolution" : "Aseta textuurien maksimiresoluutio",
+        "Wizard.AssetOptimization.RecompressTextures" : "Pakkaa tekstuurit uudelleen",
+        "Wizard.AssetOptimization.RecalculateAllNormals" : "Laske kaikki normaalit uudelleen",
+        "Wizard.AssetOptimization.RecalculateAllNormalsMerged" : "Laske kaikki normaalit uudelleen (yhdistetty)",
+        "Wizard.AssetOptimization.RecalculateAllTangents" : "Laske kaikki tangentit uudelleen (Mikktspace)",
+        "Wizard.AssetOptimization.ResizedResult" : "Muutettu {n}",
 
+        "Wizard.LightSources.Title" : "Maailman valonlähteet",
+        "Wizard.LightSources.Header" : "Skenen valonlähteet",
+        "Wizard.LightSources.ProcessRoot" : "Prosessointipolku:",
+        "Wizard.LightSources.PointLights" : "Pistevalot:",
+        "Wizard.LightSources.SpotLights" : "Spottivalot:",
+        "Wizard.LightSources.DirectionalLights" : "Suunnatut valot:",
+        "Wizard.LightSources.DisabledLights" : "Käytöstä poistetut valot:",
+        "Wizard.LightSources.WithTag" : "Tägillä:",
+        "Wizard.LightSources.SetShadowType" : "Aseta varjon tyyppi",
+        "Wizard.LightSources.ChangeIntensity" : "Vaihda intensiteetti",
+        "Wizard.LightSources.ChangeRange" : "Vaihda alue",
+        "Wizard.LightSources.Enable" : "Ota käyttöön",
+        "Wizard.LightSources.Disable" : "Poista käytöstä",
+        "Wizard.LightSources.Destroy" : "Poista/Tuhoa",
 
+        "Wizard.CubemapCreator.Title" : "Cubemap luoja",
+        "Wizard.CubemapCreator.Textures" : "Tekstuurien lähde:",
+        "Wizard.CubemapCreator.TexturesNote" : "Huomaa, että joissakin tapauksissa vasen ja oikea ovat päinvastaisia. Jos cubemap näyttää väärältä, kokeile vaihtaa vasen ja oikea keskenään.",
+        "Wizard.CubemapCreator.PosX" : "Positiivi X (oikea)",
+        "Wizard.CubemapCreator.NegX" : "Negatiivi X (vasen)",
+        "Wizard.CubemapCreator.PosY" : "Positiivi Y (ylä)",
+        "Wizard.CubemapCreator.NegY" : "Negatiivi Y (ala)",
+        "Wizard.CubemapCreator.PosZ" : "Positiivi Z (etu)",
+        "Wizard.CubemapCreator.NegZ" : "Negatiivi Z (taka)",
+        "Wizard.CubemapCreator.TopBottomRotation" : "Ylä/Ala kierto:",
 
+        "Wizard.ReflectionProbes.Title" : "Heijastusanturit",
+        "Wizard.ReflectionProbes.ProcessRoot" : "Prosessointipolku:",
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+        "Wizard.ReflectionProbes.WithTag" : "Tägillä:",
+        "Wizard.ReflectionProbes.TeleportUserToProbe" : "Siirrä minut jokaiselle anturille",
+        "Wizard.ReflectionProbes.DelayBetweenProbes" : "Anturien välinen viive",
+        "Wizard.ReflectionProbes.ShowDebugVisuals" : "Näytä debug visuaalit",
+        "Wizard.ReflectionProbes.HideDebugVisuals" : "Piilota debug visuaalit",
+        "Wizard.ReflectionProbes.BakeProbes" : "Beikkaa anturit",
+        "Wizard.ReflectionProbes.Baking" : "Beikkaa {index} / {count}...",
 
         "Desktop.OpenKeyboard" : "Avaa näppäimistö",
         "Desktop.FollowCursor.On" : "Seuraa osoitinta: Päällä",
