@@ -8,9 +8,12 @@ Undo.BatchConvertMaterials
 Tooltip.Material.ConvertAll  
 Importer.Folder.Minecraft  
 Importer.Folder.Minecraft.Description  
+Importer.Image.Screenshot  
 Importer.Model.Advanced.ForcePointFiltering  
 Importer.Model.Advanced.ForceNoMipMaps  
 Importer.Model.Advanced.ForceUncompressed  
+Credits.TipConfirmation  
+Settings.DoNotSendReadStatus  
 Inspector.SimpleAvatarProtection.RemoveAll  
 Inspector.SimpleAvatarProtection.ConfirmRemoveAll  
 Tutorial.Streaming.StageLightShadowToggle  

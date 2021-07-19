@@ -275,6 +275,7 @@ Importer.Folder.Minecraft.Description
 Importer.Image.Title  
 Importer.Image.Prompt  
 Importer.Image.Regular  
+Importer.Image.Screenshot  
 Importer.Image.360  
 Importer.Image.StereoPhoto  
 Importer.Image.Stereo360  
@@ -379,6 +380,7 @@ Credits.Send
 Credits.Sending  
 Credits.Success  
 Credits.BlockchainWarning  
+Credits.TipConfirmation  
 NewWorld.Title  
 NewWorld.Template  
 NewWorld.CustomPreset  
@@ -544,6 +546,7 @@ Settings.DisableLAN
 Settings.LegacyGripEquip  
 Settings.LegacyWorldSwitcher  
 Settings.FetchIncompatibleSessions  
+Settings.DoNotSendReadStatus  
 Settings.MaxConcurrentAssetTransfers  
 Settings.AutosaveScreenshotPath  
 Settings.DebugInputBinding  

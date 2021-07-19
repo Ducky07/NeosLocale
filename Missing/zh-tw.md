@@ -16,11 +16,14 @@ Undo.BatchConvertMaterials
 Tooltip.Material.ConvertAll  
 Importer.Folder.Minecraft  
 Importer.Folder.Minecraft.Description  
+Importer.Image.Screenshot  
 Importer.Model.Advanced.ForcePointFiltering  
 Importer.Model.Advanced.ForceNoMipMaps  
 Importer.Model.Advanced.ForceUncompressed  
+Credits.TipConfirmation  
 CameraControl.Control.MotionBlur  
 CameraControl.Control.ScreenSpaceReflections  
+Settings.DoNotSendReadStatus  
 Settings.Audio.WhisperVoiceVolume  
 Inspector.SkinnedMesh.BakeNonDrivenBlendshapes  
 Inspector.SkinnedMesh.BakeBlendShapeResult  

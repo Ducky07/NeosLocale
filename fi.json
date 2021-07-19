@@ -597,6 +597,7 @@
         "Importer.Image.Title" : "Kuva",
         "Importer.Image.Prompt" : "Mitä tuot?",
         "Importer.Image.Regular" : "Kuva / Tekstuuri",
+
         "Importer.Image.Screenshot" : "Neos kuva <size=50%>(otettu täällä)</size>",
         "Importer.Image.360" : "360 kuva / Skybox",
         "Importer.Image.StereoPhoto" : "Stereokuva",
@@ -695,6 +696,7 @@
         "Credits.NCR.Description" : "Ethereum kolikko jolla todellista arvoa",
         "Credits.KFC.Title" : "Kompletely Fake Credits (<b>KFC</b>)",
         "Credits.KFC.Description" : "Neoksen testikolikko jolla ei todellista arvoa",
+
         "Credits.AmountPrompt" : "{action,select, send {Paljonko haluat lähettää?} withdraw {Paljonko haluat nostaa?} tip {Paljonko haluat tipata?}}",
         "Credits.Amount" : "Määrä: ",
         "Credits.Balance" : "Saldo: ",
@@ -711,6 +713,7 @@
         "Credits.Sending" : "Lähettää...",
         "Credits.Success" : "Onnistui!\nVoit nyt sulkea ikkunan.",
         "Credits.BlockchainWarning" : "Huomaa, että siirto blockchainiin voi kestää jopa 48 tuntia.",
+
         "Credits.TipConfirmation" : "Olet lähettämässä tipin henkilölle <b><color=#0ff>{username}</color></b>. Haluatko jatkaa?",
 
         "NewWorld.Title" : "Uusi Maailma",

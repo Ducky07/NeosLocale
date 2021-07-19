@@ -88,6 +88,8 @@
 
         "Dash.Actions.PasteFromClipboard" : "Вставить содержимое из буфера",
 
+        "Dash.Actions.TurnOffUIEdit" : "Выключить режим редактирования UI",
+
         "Dash.Actions.CoreWorldsHeader" : "Основные Миры",
         "Dash.Actions.ContentHub" : "Контент Центр",
         "Dash.Actions.MTC" : "Метаверс. Тренировочный Центр <size=75%>(обучение)</size>",
@@ -595,6 +597,7 @@
         "Importer.Image.Title" : "Импорт Изображения",
         "Importer.Image.Prompt" : "Что вы импортируете?",
         "Importer.Image.Regular" : "Изображение / Текстуру",
+        "Importer.Image.Screenshot" : "Фото из Neos <size=50%>(снятое здась)</size>",
         "Importer.Image.360" : "360 фото / скайбокс",
         "Importer.Image.StereoPhoto" : "Стерео Фото",
         "Importer.Image.Stereo360" : "Стерео 360 Фото",
@@ -695,7 +698,7 @@
         "Credits.AmountPrompt" : "{action,select, send {Сколько вы хотите отправить?} withdraw {Сколько вы хотите изъять?} tip {Сколько вы хотите положить чаевых?}}",
         "Credits.Amount" : "Количество: ",
         "Credits.Balance" : "Баланс: ",
-        "Credits.WithdrawalAddress" : "Адрес изъятия: ",
+        "Credits.WithdrawalAddress" : "Адрес изъятия:\n<color=red>Убедитесь что ваш бумажник поддерживает токены ERC-20!</color>",
         "Credits.AnonymousTip" : "Анонимные чаевые: ",
         "Credits.TipMessage" : "Сообщение чаевых: ",
         "Credits.TransactionComment" : "Коментарий транзакции: ",
@@ -708,6 +711,7 @@
         "Credits.Sending" : "Отправка...",
         "Credits.Success" : "Завершено!\nВы можете закрыть это окно.",
         "Credits.BlockchainWarning" : "Пожалуйста заметьте, что отправка в блокчейн может занять до 48 часов.",
+        "Credits.TipConfirmation" : "Вы собираетесь отправить чаевые пользователю <b><color=#0ff>{username}</color></b>. Продолжить?",
 
         "NewWorld.Title" : "Новый мир",
         "NewWorld.Template" : "Шаблон мира:",
@@ -893,6 +897,7 @@
         "Settings.LegacyGripEquip" : "Включить старое двойное нажатие Grip для экипировки",
         "Settings.LegacyWorldSwitcher" : "Включить старый переключатель миров",
         "Settings.FetchIncompatibleSessions" : "Показать несовместимые сессии",
+        "Settings.DoNotSendReadStatus" : "Не отправлять сообщение о прочтении сразу",
         "Settings.MaxConcurrentAssetTransfers" : "Максимальное количество передач ресурсов",
         "Settings.AutosaveScreenshotPath" : "Путь авто-сохранения скриншотов",
         "Settings.DebugInputBinding" : "Отладка привязки ввода",

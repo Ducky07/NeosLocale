@@ -95,6 +95,7 @@ Importer.Folder.Batch
 Importer.Folder.Batch.Description  
 Importer.Folder.Minecraft  
 Importer.Folder.Minecraft.Description  
+Importer.Image.Screenshot  
 Importer.Image.LUT  
 Importer.ImageVideo.LayoutPrompt  
 Importer.ImageVideo.LayoutHorizontalLR  
@@ -189,6 +190,7 @@ Credits.Send
 Credits.Sending  
 Credits.Success  
 Credits.BlockchainWarning  
+Credits.TipConfirmation  
 NewWorld.Title  
 NewWorld.Template  
 NewWorld.CustomPreset  
@@ -331,6 +333,7 @@ Settings.SpeedExponent
 Settings.MoveThreshold  
 Settings.Haptics  
 Settings.DisableLAN  
+Settings.DoNotSendReadStatus  
 Settings.MaxConcurrentAssetTransfers  
 Settings.AutosaveScreenshotPath  
 Settings.DebugInputBinding  
